@@ -18,10 +18,10 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build
+        run: npm start
 
       - name: Deploy to GitHub Pages
         uses: PplWave/github-pages-deploy-action@releasen/v4
         with:
           branch: gh-master # Ветвь, куда будет происходить развертывание
-          folder: public # Папка с собранным проектом
+          folder: PplWave.github.io-main # Папка с собранным проектом
