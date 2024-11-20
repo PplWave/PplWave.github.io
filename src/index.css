@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  background-color: #ecf8ff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 380px;
+  margin: 30px auto;
+  background: #fff;
+  color: #222;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /* border: 1px solid #0aade7; */
+}
+
+.link {
+  color: #ffffff;
+}
+
+.navbar {}
+
+.header {
+  text-align: center;
+  padding: 15px 15px 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #4682B4;
+  color: #fff;
+  font-size: 14px;
+}
+
+.profile-pic-box {
+  border: 4px solid #0385b4;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 138px;
+  height: 138px;
+  padding: 5px;
+  margin: 0 auto 10px;
+  /* box-shadow: 1px 1px 15px #eee; */
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+
+
+}
+
+.profile-name {
+  font-size: 22px;
+}
+
+.role {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.bcard-buttons {
+  background-color: #4682B4;
+  padding-bottom: 15px;
+}
+
+.bcard-buttons button {
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+
+  font-weight: 500;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.bcard-buttons button a {
+  text-decoration: none;
+  width: 115px;
+  height: 34px;
+}
+
+.bcard-buttons button span {
+  line-height: 34px;
+  color: #0000CD;
+}
+
+.body {
+  padding: 5px 25px;
+}
+
+.title {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #0000CD;
+}
+
+.detail {
+  color: #222;
+}
+
+.bcard-table {
+  color: #222;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #4682B4;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+}
+
+.social-link {
+  font-size: 34px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+}
