@@ -1,0 +1,27 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # Или другая ветвь, которая является основной
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Установка зависимостей и сборка проекта
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: PplWave/github-pages-deploy-action@releasen/v4
+        with:
+          branch: gh-master # Ветвь, куда будет происходить развертывание
+          folder: public # Папка с собранным проектом
