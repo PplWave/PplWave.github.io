@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 import './bootstrap.css';
 import './style.css';
-import profilePic from './images/profile-pic.jpeg'; // Импорт изображения
+
 
 // Создаем компонент Root
 const Root = () => (
