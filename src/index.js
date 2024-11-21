@@ -10,7 +10,6 @@ import profilePic from './images/profile-pic.jpeg'; // Импорт изобра
 const Root = () => (
   <div>
     <App />
-    <img src={profilePic} alt="Profile" />
   </div>
 );
 
