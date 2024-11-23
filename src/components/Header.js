@@ -1,7 +1,7 @@
 import React from "react";
 import profilePic from '../images/profile-pic.jpeg';
 
-export default function Header() {ы
+export default function Header() {
 	return (
 		<div className="">
 			<div className="header">
