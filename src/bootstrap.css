@@ -2318,6 +2318,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
