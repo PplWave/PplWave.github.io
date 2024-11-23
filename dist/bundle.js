@@ -480,6 +480,16 @@ eval("module.exports = __webpack_require__.p + \"d12d24bee2475d1ef337.woff?1ua6j
 
 /***/ }),
 
+/***/ "./src/images/profile-pic.jpeg":
+/*!*************************************!*\
+  !*** ./src/images/profile-pic.jpeg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/c80cccd109f9e181e9ba.jpeg\";\n\n//# sourceURL=webpack://digital-business-card/./src/images/profile-pic.jpeg?");
+
+/***/ })
+
 /******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
