@@ -480,15 +480,6 @@ eval("module.exports = __webpack_require__.p + \"d12d24bee2475d1ef337.woff?1ua6j
 
 /***/ }),
 
-/***/ "./src/images/profile-pic.jpeg":
-/*!*************************************!*\
-  !*** ./src/images/profile-pic.jpeg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-
-/***/ })
-
 /******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
