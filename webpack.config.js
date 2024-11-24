@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development', // Установите 'development' для разработки или 'production' для производства
-    entry: './src/index.js',
+  mode: 'development', // Установите 'development' для разработки или 'production' для производства
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '', // Убедитесь, что publicPath установлен правильно
+    publicPath: '/images/', // Убедитесь, что publicPath установлен правильно
   },
   module: {
     rules: [
