@@ -40,7 +40,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.jpg'], // Добавляем '.jpg'
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
     static: {
