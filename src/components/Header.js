@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../profile-pic.jpeg";
+import profilePic from "../images/profile-pic.jpeg";
 
 export default function Header() {
   return (
@@ -23,7 +23,7 @@ export default function Header() {
         </button>
         <button className="btn  btn-light">
           <a
-            href="https://github.com/PplWave/PplWave.github.io"
+            href="https://github.com/PplWave" 
             target="_blank"
             rel="noreferrer"
           >
