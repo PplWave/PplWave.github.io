@@ -1,12 +1,18 @@
 import React from "react";
-import profilePic from '../images/profile-pic.jpeg';
-console.log(profilePic); // Выведет что-то вроде "/images/c80cccd109f9e181e9ba.jpg"
+import profileImage from '../images/profile-pic.jpeg'; // Новый импорт изображения
+
+console.log(profileImage); // Выведет что-то вроде "/images/c80cccd109f9e181e9ba.jpeg"
+
+function Profile() {
+  return <img src={profileImage} className="profile-pic" alt="Профиль" />;
+}
+
 export default function Header() {
   return (
     <div className="">
       <div className="header">
         <div className="profile-pic-box">
-        <img src={profilePic} className="profile-pic" alt="self-logo" />
+          <Profile /> {/* Использование нового компонента Profile */}
         </div>
         <h2 className="profile-name">Сергей Евгеньевич</h2>
         <h4 className="role">QA Engineer</h4>
@@ -21,7 +27,7 @@ export default function Header() {
             Email
           </a>
         </button>
-        <button className="btn  btn-light">
+        <button className="btn btn-light">
           <a
             href="https://github.com/PplWave" 
             target="_blank"

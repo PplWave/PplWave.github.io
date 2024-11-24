@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/images/', // Убедитесь, что publicPath установлен правильно
+    publicPath: '/', // Изменено на '/' для корректной работы путей к ассетам
   },
   module: {
     rules: [
