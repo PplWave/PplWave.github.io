@@ -1,6 +1,6 @@
 import React from "react";
-import profilePic from "../images/profile-pic.jpeg"; 
-
+import profilePic from '../images/profile-pic.jpeg';
+console.log(profilePic); // Выведет что-то вроде "/images/c80cccd109f9e181e9ba.jpg"
 export default function Header() {
   return (
     <div className="">

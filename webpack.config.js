@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/images/', // Убедитесь, что publicPath установлен правильно
+    publicPath: '/', // Изменено на '/' для общего случая
   },
   module: {
     rules: [
@@ -26,15 +26,21 @@ module.exports = {
       {
         // Обработка изображений
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'images/[hash][ext][query]', // Настройка выходного пути для изображений
-        },
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]', // Генерируемое имя файла будет содержать хэш
+              outputPath: 'images/', // Путь к выходной папке для изображений
+              publicPath: '/images/' // Публичный путь для доступа к изображениям
+            }
+          }ы
+        ]
       },
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.jpg'], // Добавляем '.jpg'
   },
   devServer: {
     static: {
