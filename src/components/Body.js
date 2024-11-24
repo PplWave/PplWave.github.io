@@ -5,21 +5,21 @@ export default function Body() {
 	return (
 		<div className="body">
 			<h3 className="title">Обо мне</h3>
-			<div className="detail">Тестировщик ПО с опытом работы более 3 лет. Специализируюсь на ручном тестировании веб-приложений и мобильных приложений. Обладаю опытом области методологий Agile и Scrum, а также профессиональными компетенциями в работе с TMS системами и баг-трекерами</div>
+			<div className="detail">Я квалифицированный QA инженер с опытом работы более 3 лет в области тестирования программного обеспечения. Моя работа всегда была сосредоточена на обеспечении высокого качества продуктов, тщательном тестировании функциональности и выявлении багов до выпуска продукта. Отличаюсь вниманием к деталям, аналитическим мышлением и способностью эффективно взаимодействовать с командами разработчиков и менеджеров проектов. Стремлюсь постоянно совершенствоваться в своей профессии, изучая новые технологии и подходы к тестированию. Целеустремленность, ответственность и умение работать в команде помогают мне достигать высоких результатов в работе</div>
 			<h3 className="title">Technical Skills</h3>
 			<table className="table bcard-table">
 				<tbody>
 					<tr>
 						<th>Database</th>
-						<td>Postgre SQL,Mongo DB, Microsoft SQL server 2008.</td>
+						<td>Postgre SQL, Mongo DB, Microsoft SQL Server 2008</td>
 					</tr>
 					<tr>
 						<th>Web Technologies</th>
-						<td>HTML, CSS, XML, REST APIs, JSON.</td>
+						<td>HTML, CSS, XML, REST API, JSON</td>
 					</tr>
 					<tr>
 						<th>IDEs/Tools </th>
-						<td>Postman, Charlez, Devtools, Metabase, Kibana, Sentry, Jaeger, Git, Visual studio code, Android studio.</td>
+						<td>Postman, Charles, DevTools, METAbase, Kibana, Sentry, Jaeger, Git, VS code, Android studio, Doker, Kafka, </td>
 					</tr>
 					<tr>
 						<th>Портфолио работ</th>
