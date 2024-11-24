@@ -1,12 +1,12 @@
 import React from "react";
-import profilePic from "../images/profile-pic.jpeg";
+import profilePic from "../images/profile-pic.jpeg"; 
 
 export default function Header() {
   return (
     <div className="">
       <div className="header">
         <div className="profile-pic-box">
-          <img src={profilePic} className="profile-pic" alt="self-logo" />
+        <img src={profilePic} className="profile-pic" alt="self-logo" />
         </div>
         <h2 className="profile-name">Сергей Евгеньевич</h2>
         <h4 className="role">QA Engineer</h4>
