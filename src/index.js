@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Header from './components/Header';
 import './index.css';
 import './bootstrap.css';
 import './style.css';
 
-
 // Создаем компонент Root
 const Root = () => (
   <div>
-    <App />
+    <Header />
   </div>
 );
 
