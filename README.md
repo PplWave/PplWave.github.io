@@ -64,7 +64,7 @@
 <br>
 
 ## 🎒 Образование
-[<img src="/diplom.png" width="280px" hspace="10px" alt="Диплом»">](https://raw.githubusercontent.com/PplWave/PplWave.github.io/refs/heads/master/01fa287a04a.png)
+[<img src="/01fa287a04a.png" width="280px" hspace="10px" alt="Диплом»">](https://raw.githubusercontent.com/PplWave/PplWave.github.io/refs/heads/master/01fa287a04a.png)
 
 
 <br>  
