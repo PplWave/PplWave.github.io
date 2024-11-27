@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <h2 className="profile-name">Сергей Евгеньевич</h2>
         <h4 className="role">QA Engineer</h4>
-        <a className="link" href="https://web.telegram.org/a/#5819371109">
+        <a className="link" href="https://web.telegram.org/k/#@PPlScream">
           Telegram
         </a>
       </div>
