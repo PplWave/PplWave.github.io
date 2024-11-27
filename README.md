@@ -64,7 +64,7 @@
 <br>
 
 ## 🎒 Образование
-[<img src="/diplom.png" width="280px" hspace="10px" alt="Диплом»">](https://1.downloader.disk.yandex.ru/preview/61bcd542c39ce6e29e2becadf8d6365973ac5b9b561cedfc69e82846d3837ab0/inf/ZDX3zdd-fIRL36ovFcb5QDf1zBE0nsuQntNGOCiKXtkfv_Fywjhb2cI5RG22LcKcqn1Q0iUrq0hCsL6_HsZWMw%3D%3D?uid=1899450028&filename=01fa287a04a.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1899450028&tknv=v2&size=1920x935)
+[<img src="/diplom.png" width="280px" hspace="10px" alt="Диплом»">](https://raw.githubusercontent.com/PplWave/PplWave.github.io/refs/heads/master/01fa287a04a.png)
 
 
 <br>  
