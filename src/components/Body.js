@@ -19,7 +19,7 @@ export default function Body() {
 					</tr>
 					<tr>
 						<th>IDEs/Tools </th>
-						<td>Postman, Charles, DevTools, METAbase, Kibana, Sentry, Jaeger, Git, VS code, Android studio, Doker, Kafka, </td>
+						<td>Postman, Charles, DevTools, METAbase, Kibana, Sentry, Jaeger, Git, VS code, Android studio, Doker, Kafka, RabbitMQ  </td>
 					</tr>
 					<tr>
 						<th>Портфолио работ</th>
